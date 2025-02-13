@@ -37,7 +37,7 @@ gibi bir fonksiyon kullanılır. Buradaki artırma miktarı; kullanılan veri ya
 sonucunu verir. Dolayısıyla 14 sayısı, 5. index üzerinde konumlanır. Bu durum boş yer bulunana kadar artırılmaya devam eder. 
 
 # Lineer Probing Dezavantajları
-Lineer Probing yapısının en büyük dezavantajlarından biri, hash table üzerinde belirli index değerlerine yığılma yaparak önceki evya aradaki index değerlerine hiçbir veri yazamamasıdır. Bu durum verilerin verimli şekilde yerleşmemesine yol açar.
+Lineer Probing yapısının en büyük dezavantajlarından biri, hash table üzerinde belirli index değerlerine yığılma yaparak önceki veya aradaki index değerlerine hiçbir veri yazamamasıdır. Bu durum verilerin verimli şekilde yerleşmemesine yol açar.
 
 ## Quadratic Probing
 Bu yapıda amaç Lineer Probing yapısının yol açtığı belirli index'ler üzerindeki yığılmayı bir nebze dağıtmaktır. Bunu ise i gibi bir değişken ile lineer olarak artırılarak yapılır. Örneğin; 4 sayısı 4. index üzerinde. 14 sayısı da 10 boyutlu bir dizide 4. index üzerinde gelmeye çalışıyor. Bu durumda şöyle bir fonksiyon ortya çıkar; 
